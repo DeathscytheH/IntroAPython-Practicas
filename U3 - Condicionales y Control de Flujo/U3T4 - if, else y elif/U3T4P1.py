@@ -4,6 +4,16 @@ Unidad 3 - Condicionales y Control de Flujo.
 T4 - If, Else y Elif
 
 P1 - Sintaxis de los condicionales
+
+if es un condicional que ejecuta cierto codigo despues de revisar si su
+expresion es True
+
+Un ejemplo de un if:
+    if 8<9:
+            print "Ocho es menor que nueve!"
+
+En este ejemplo, 8<9 es la expresion a revisar, y print "Ocho es menor que 
+nueve!" es el codigo.
 """
 
 salida = ''
@@ -11,6 +21,7 @@ salida = ''
 respuesta = "Izquierda"
 if respuesta == "Izquierda":
     print "Este es el cuarto de abuso verbal, maldito hijo de p#$%&!"
-    
-#Will the above print statement print to the console?
-#Set response to 'Y' if you think so, and 'N' if you think not.
+
+print salida
+#La sentencia print de arriba, sera impresa?
+#Escribe en la variable salida "si" o "no"
