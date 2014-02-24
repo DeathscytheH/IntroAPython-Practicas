@@ -23,13 +23,16 @@ print "Pyg Latin"
 
 #Usa raw_input("Ingresa una palabra:"), para preguntarle al usuario que ingrese
 #una palabra. Salva el resultado en una variable llamada "original"
-
+original = raw_input("Ingresa una palabra")
 
 #Escribe una sentencia if que verifique que la cadena tenga caracteres.
 #Agrega un if que cheque que len(original) es mayor que cero.
 #Si la cade es mayor que cero imprime la palabra.
 #Si no, imprime "Vacio"
-
+if len(original)>0 and original.isalpha():
+    print original
+else:
+    print "Vacio"
 
 """
 Ya sabemos si existe una cadena no vacia. Hagamos otra validacion.
@@ -48,22 +51,3 @@ caracteres del alfabeto. Puedes usar isalpha() para revisar esto.
 
 #En el if anterior puedes agregar un and para ingresar una segunda condicion.
 #Aqui debes usar .isalpha() para asegurarte que solo contiene letras.
-
-pyg = 'ay'
-
-original = raw_input('Enter a word:')
-
-if len(original) > 0 and original.isalpha():
-    print original
-    word=original.lower()
-    first=word[0]
-    if first in "aeiouAEIOU":
-        print "vowel"
-        new_word=word+pyg
-        print new_word
-    else:
-        print "consonant"
-        new_word=word[1:]+first+pyg
-        print new_word
-else:
-	print 'empty'
