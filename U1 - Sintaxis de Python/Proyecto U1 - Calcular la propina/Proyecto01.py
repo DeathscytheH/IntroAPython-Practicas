@@ -16,10 +16,12 @@ la propina se le aplica al resultado del desayuno mas el iva.
 #01. Declaramos la variable 'desayuno' con un valor de 150.
 
 
-#02. Ahora declaramos el iva. Lo haremos en forma decimal no en porcentaje.
+#02. Ahora declaramos y calculamos el iva. Lo haremos en forma decimal no en 
+#porcentaje.
 
 
-#03. De igual manera declaramos la propina. Tambien de forma decimal.
+#03. De igual manera declaramos y calculamos la propina. Tambien de forma 
+#decimal.
 
 
 #04. Ahora haremos el primer calculo. Reasignaremos el valor de desayuno para
